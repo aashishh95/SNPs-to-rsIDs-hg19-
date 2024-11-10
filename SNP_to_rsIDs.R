@@ -19,7 +19,7 @@ available.SNPs()
 available.genomes()
 
 # Define a sample dataset
-sample <- read_xlsx("sample_dataset.xlxs")  # Replace `brokpa` with any other dataset as needed
+sample <- read.delim("sample_dataset.txt")  # Replace "sample_dataset" with your own dataset that you want to have rsIDs for. 
 
 # Define chromosome range
 chromosomeVec <- as.character(seq(1, 22, by = 1))
